@@ -1,0 +1,329 @@
+/*
+Title:      Helvis master screen styles
+Author:     Paolo Agostinelli
+Email:      p.agostinelli@gmail.com
+Web:        www.dodorama.com
+Copyright:  2011, Paolo Agostinelli.  All rights reserved (please don't re-use without permission).
+*/
+
+
+
+/* Helvis */
+
+
+
+body {
+  background-color: #fff;
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	color: #999;
+}
+
+a.active,
+a:active {
+  color: #000;
+}
+
+li a.active {
+  color: #000;
+}
+
+/* Header */
+
+#header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 3em;
+}
+
+#header #site-name {
+  display: inline;
+  float: left;
+  font-size: 1.5em;
+  line-height: 2.5em;
+  font-weight: bold;
+}
+
+#header #site-name a {
+  display: block;
+  text-decoration: none;
+}
+
+#header h2 {
+  display: none;
+}
+
+#header #nav {
+  float: right;
+}
+
+#header ul#main-menu {
+  float: left;
+}
+
+#header ul#main-menu li,
+#header ul#main-menu li a {
+  float: left;
+}
+
+#header ul#main-menu li a {
+  line-height: 5em;
+  display: block;
+  padding: 0 0 0 20px;
+  font-size: 0.75em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Projects View */
+
+.view-projects ul li a{
+  font-weight: bold;
+  font-size: 0.875em;
+}
+
+/* Project Node */
+
+.node-project {
+
+}
+
+.node-project #project-data {
+
+}
+
+.node-project #images {
+
+}
+
+.node-project h2 {
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+.node-project .field-name-field-project-subtitle {
+  font-size: 0.75em;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+.node-project .field-name-field-project-description {
+  font-size: 0.8125em;
+  line-height: 2em;
+}
+
+.node-project .field-name-field-project-file {
+  font-size: 0.75em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.node-project .field-name-field-project-category{
+  font-size: 0.75em;
+  font-style: italic;
+}
+
+.node-project .field-name-field-project-date {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* Pager */
+
+ul.flippy li a{
+  font-size: 0.625em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Tabs */
+
+ul.tabs {
+
+}
+
+ul.tabs li {
+  display: inline; 
+}
+
+ul.tabs li a {
+  background-color: transparent;
+  line-height: 36px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+
+ul.tabs li a.active,
+ul.tabs li a:hover {
+  color: #999;
+}
+
+/* Messages */
+
+div.messages{
+  background-color:#f8f8f8;
+  margin: 0 0 1em 0;
+  padding: 1em 10px;
+  border: 1px solid #ccc;
+  font-size: 0.75em;
+}
+
+table tr.warning th,
+div.warning {
+  color:#a84;
+  background-color:#fff4c0;
+  background-image: none;
+  }
+
+table tr.error th,
+div.error {
+  color: #995655;
+  background-color: #fff1ef;
+  background-image: none;
+}
+
+table tr.ok th,
+table tr.info th,
+div.status {
+  color:#687;
+  background-color:#ecf8f4;
+  background-image: none;
+  }
+
+  div.error   { border-color:#ffd4d0; }
+  div.warning { border-color:#ffe4b0; }
+  div.status  { border-color:#dce8e4; }
+  div.messages ul {
+  margin: 0 0 0 6px; /* LTR */
+  padding: 0;
+}
+
+
+
+/* Form Elements */
+
+form {
+  width: 380px;
+}
+
+input.form-text,
+textarea.form-textarea {                                      
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  outline: none;
+  color: #444;
+  border-style: none;
+  background-color: #e8e7e7;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+/*input#edit-title.form-text {                                      
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  box-sizing: border-box;
+}*/
+.resizable-textarea textarea.form-textarea {                                      
+  -webkit-border-top-left-radius: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-topleft: 6px;
+  -moz-border-radius-topright: 6px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.resizable-textarea .grippie {                                      
+  height: 12px;
+  border-style: none;
+  background-position: center 4px;
+  background-color: #e8e7e7;
+}
+html.js input.form-autocomplete {
+  background-repeat: no-repeat;
+  background-position: 100% 6px; /* LTR */
+}
+div.form-item label,
+div.form-item label.option{
+  letter-spacing: 1px;
+  color: #000;
+  font-weight: bold;
+  font-size: 0.75em;
+}
+fieldset {
+  position: relative;
+  border-style: none;
+  border: 4px solid #eef1f4;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+fieldset legend {
+  color: #d2dbe5;
+}
+
+.form-item input.error, .form-item textarea.error, .form-item select.error {
+  background-color: #ffe5e1;
+  border-style: none;
+}
+
+input.form-submit,
+a.button {
+  background-color: #000;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333',endColorstr='#000');
+  background: -webkit-gradient(linear,left top,left bottom,from(#333),to(#000));
+  background: -moz-linear-gradient(top,#333,#000);
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin-right: 12px; /* LTR */
+  padding: 0 16px;
+  -khtml-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border-style: none;
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,.25);
+  box-shadow: 0 0 4px rgba(0,0,0,.25);
+}
+input.form-submit:active,
+a.button:active {
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0);
+  box-shadow: 0 0 4px rgba(0,0,0,0);
+}
+input.form-submit:hover,
+a.button:link,
+a.button:visited,
+a.button:hover,
+a.button:focus {
+  text-decoration: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333',endColorstr='#000');
+  background: -webkit-gradient(linear,left top,left bottom,from(#333),to(#000));
+  background: -moz-linear-gradient(top,#333,#000);
+  text-shadow: 0px 1px 4px rgba(255,255,255,1);
+}
+
