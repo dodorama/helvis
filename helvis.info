@@ -1,6 +1,6 @@
 name = Helvis
 description = Helvetica inspired theme for Drupal.
-screenshot  = images/screenshot.png
+screenshot  = screenshot.png
 engine = phptemplate
 core = 7.x
 base theme = wire

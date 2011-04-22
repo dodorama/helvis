@@ -46,7 +46,6 @@
 <?php $num_of_images = count($items); ?>
 <?php if ($num_of_images > 1) : ?>
   <?php drupal_add_js(drupal_get_path('theme', 'helvis'). '/js/tabs/js/jquery.tabs.min.js'); ?>
-  <?php drupal_add_js(drupal_get_path('theme', 'helvis'). '/js/tabs/js/jquery.syncheight.js'); ?>
   <?php drupal_add_js(drupal_get_path('theme', 'helvis'). '/js/effects.js'); ?>
   <?php drupal_add_css(drupal_get_path('theme', 'helvis') . '/css/effects.css');  ?>
 <?php endif; ?>
