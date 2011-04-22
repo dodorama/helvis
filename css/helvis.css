@@ -25,7 +25,7 @@ a:visited {
 	color: #000;
 }
 a:hover {
-	color: #999;
+	color: #39a550;
 }
 
 a.active,
@@ -85,9 +85,10 @@ li a.active {
 
 /* Projects View */
 
-.view-projects ul li a{
+.view-projects ul li .project-title{
   font-weight: bold;
   font-size: 0.875em;
+  line-height: 3em;
 }
 
 /* Project Node */
@@ -214,7 +215,7 @@ div.status {
 /* Form Elements */
 
 form {
-  width: 380px;
+  
 }
 
 input.form-text,
